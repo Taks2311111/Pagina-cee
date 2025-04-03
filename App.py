@@ -101,7 +101,7 @@ elif opcion == "Drive de Estudio":
         </style>
 
         <div class="social-buttons">
-            <a href="https://drive.google.com/drive/folders/TU_CODIGO_DE_DRIVE" target="_blank">
+            <a href="https://drive.google.com/drive/folders/1Q505dFbrA1FYVnRMqswJMDX4iOAqV-BV?usp=sharing" target="_blank">
                 <i class="fab fa-google-drive">📂</i> Google Drive
             </a>
         </div>
