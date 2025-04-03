@@ -5,7 +5,7 @@ st.set_page_config(page_title="Centro de Alumnos - Ciencia de Datos", page_icon=
 
 # Barra lateral con opciones
 st.sidebar.title("Navegación")
-opcion = st.sidebar.radio("Selecciona una opción", ("Bienvenida", "Drive de Estudio", "Avisos"))
+opcion = st.sidebar.radio("Selecciona una opción", ("Bienvenida", "Drive de Estudio", "Avisos","Conocenos"))
 
 # Contenido de la página dependiendo de la opción seleccionada
 if opcion == "Bienvenida":
@@ -78,6 +78,7 @@ elif opcion == "Drive de Estudio":
 
     # Mensaje de contacto
     st.write("Aquí puedes acceder a los recursos de estudio compartidos en nuestro Google Drive.")
+    st.write("Ingresar con el correo institucional de nuestra universidad")
 
     # Enlace a Google Drive con íconos
     st.markdown("""
@@ -113,4 +114,30 @@ elif opcion == "Avisos":
     st.title("📣 Avisos")
     st.subheader("Aquí encontrarás los avisos importantes.")
     st.write("Esta sección se actualizará pronto con los avisos del centro de alumnos.")
+
+elif opcion == "Conocenos":
+    st.title("Centro de Estudiantes de Ingeniería Civil en Ciencia de Datos")
+
+
+    st.write("""
+    Somos el Centro de Estudiantes de la carrera de Ingeniería Civil en Ciencia de Datos de la Universidad Metropolitana. Nuestra misión es representar y apoyar a nuestros compañeros, promoviendo la colaboración, el bienestar y el crecimiento académico y profesional dentro de nuestra comunidad.
+    """)
+
+    st.header("Directiva 2024-2026")
+    st.write("""
+
+    Presidente: Andres Nicolas Vega Moraga
+
+    Vicepresidente: Bruno Eduardo Sainz Silva
+
+    Secretario: Benjamin Ignacio Saavedra Contreras
+
+    Tesorero: Juan Cristóbal Toledo Fierro
+
+    Bienestar Estudiantil y Género: Glenn Deimian Lanyon Alarcón
+
+    Comunicación: Welinton Antonio Barrera Mondaca
+
+    Delegado de Recreación: Joaquín Ignacio Araya Bustos
+    """)
 
