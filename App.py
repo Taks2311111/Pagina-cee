@@ -249,7 +249,7 @@ elif opcion == "Conocenos":
     st.header("Directiva 2024-2026")
     
     show_member("imgs/andres.jpeg", "Andres Nicolas Vega Moraga", "Presidente")
-    show_member("imgs/bruno.jfif", "Bruno Eduardo Sainz Silva", "Vicepresidente")
+    show_member("imgs/bruno.jpeg", "Bruno Eduardo Sainz Silva", "Vicepresidente")
     show_member("imgs/benjamin.jpeg", "Benjamin Ignacio Saavedra Contreras", "Secretario")
     show_member("imgs/juan.jpeg", "Juan Cristóbal Toledo Fierro", "Tesorero")
     show_member("imgs/juan.jpeg", "Glenn Deimian Lanyon Alarcón", "Bienestar Estudiantil y Género")
