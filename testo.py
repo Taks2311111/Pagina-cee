@@ -103,7 +103,7 @@ opcion = st.sidebar.radio(
 # Contenido de la página dependiendo de la opción seleccionada
 if opcion == "Bienvenida":
     # Título y mensaje de bienvenida
-    st.title("Bienvenidos, Estudiantes de Ciencia de Datos")
+    st.title("Bienvenidos, Estudiantes de Ciencia de Datos :)")
     st.title("Página del Centro de Alumnos de Ingeniería Civil en Ciencia de Datos  UTEM! 👋")
     st.write("""
     Nos complace presentarles la página web oficial del Centro de Alumnos de la carrera de Ingeniería Civil en Ciencia de Datos de la Universidad Tecnológica Metropolitana (UTEM).
