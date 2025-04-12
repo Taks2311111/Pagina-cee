@@ -1,2 +1,2 @@
 # Pagina-cee
-Para nuestra pagina uwu
+Pagina para nuestro centro de estudiantes 
