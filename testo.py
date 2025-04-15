@@ -273,7 +273,7 @@ elif opcion == "Conocenos":
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/bruno.jpeg", "Bruno Eduardo Sainz Silva", "Vicepresidente")
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/benjamin.jpeg", "Benjamin Ignacio Saavedra Contreras", "Secretario")
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/juan.jpeg", "Juan Cristóbal Toledo Fierro", "Tesorero")
-    show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/glen.jpg", "Glenn Deimian Lanyon Alarcón", "Bienestar Estudiantil y Género")
+    show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/glen.jpeg", "Glenn Deimian Lanyon Alarcón", "Bienestar Estudiantil y Género")
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/welinton.jpeg", "Welinton Antonio Barrera Mondaca", "Comunicación")
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/joaquin.jpeg", "Joaquín Ignacio Araya Bustos", "Delegado de Recreación")
 
