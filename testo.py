@@ -27,6 +27,14 @@ def get_base64_image_from_url(url):
 # Función para mostrar a los miembros con la imagen, nombre y cargo
 def show_member(image_url, nombre, cargo):
     base64_img = get_base64_image_from_url(image_url)
+
+        # Detectar tema actual
+    theme = st.get_option("theme.base")
+    if theme == "light":
+        text_color = "#000000"  # negro para tema claro
+    else:
+        text_color = "#FFFFFF"  # blanco para tema oscuro
+        
     st.markdown(f"""
         <div style="display: flex; align-items: center; margin-bottom: 20px;">
             <img src="data:image/png;base64,{base64_img}" style="width: 130px; height: 130px; border-radius: 50%; margin-right: 20px;">
