@@ -268,7 +268,7 @@ elif opcion == "Conocenos":
     st.title("Jefe de carrera")
     jefe("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/Jorge.png", "Jorge Ramón Vergara Quezada"," jorgever@utem.cl ")
 
-    st.title("intregantes centro de alumnos 2024-2026")
+    st.title("Intregantes centro de alumnos 2024-2026")
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/andres.jpeg", "Andres Nicolas Vega Moraga", "Presidente")
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/bruno.jpeg", "Bruno Eduardo Sainz Silva", "Vicepresidente")
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/benjamin.jpeg", "Benjamin Ignacio Saavedra Contreras", "Secretario")
