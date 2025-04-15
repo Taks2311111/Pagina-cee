@@ -45,7 +45,7 @@ def jefe(image_url, nombre, correo):
             <img src="data:image/png;base64,{base64_img}" style="width: 130px; height: 130px; border-radius: 50%; margin-right: 20px;">
             <div style="color: inherit;">
                 <h4 style="margin: 0;">{nombre}</h4>
-                <p style="margin: 0;">Correo: {correo}</p>
+                <p style="margin: 0;"> Correo: {correo}</p>
             </div>
         </div>
     """, unsafe_allow_html=True)
@@ -266,7 +266,7 @@ elif opcion == "Conocenos":
     """)
 
     st.title("Jefe de carrera")
-    jefe("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/Jorge.png", "Jorge Ramón Vergara Quezada", "jorgever@utem.cl")
+    jefe("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/Jorge.png", "Jorge Ramón Vergara Quezada"," jorgever@utem.cl ")
 
     st.title("intregantes centro de alumnos 2024-2026")
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/andres.jpeg", "Andres Nicolas Vega Moraga", "Presidente")
