@@ -25,25 +25,20 @@ def get_base64_image_from_url(url):
         raise Exception(f"Error al obtener la imagen desde la URL: {url}")
 
 # Función para mostrar a los miembros con la imagen, nombre y cargo
+
 def show_member(image_url, nombre, cargo):
     base64_img = get_base64_image_from_url(image_url)
-
-        # Detectar tema actual
-    theme = st.get_option("theme.base")
-    if theme == "light":
-        text_color = "#000000"  # negro para tema claro
-    else:
-        text_color = "#FFFFFF"  # blanco para tema oscuro
-
     st.markdown(f"""
         <div style="display: flex; align-items: center; margin-bottom: 20px;">
             <img src="data:image/png;base64,{base64_img}" style="width: 130px; height: 130px; border-radius: 50%; margin-right: 20px;">
-            <div style="color: {text_color};">
+            <div style="color: inherit;">
                 <h4 style="margin: 0;">{nombre}</h4>
                 <p style="margin: 0;">{cargo}</p>
             </div>
         </div>
     """, unsafe_allow_html=True)
+
+ 
 
 # URLs de las imágenes en GitHub
 image_url1 = "https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/Logo1.png"
@@ -257,7 +252,7 @@ elif opcion == "Conocenos":
     Somos el Centro de Estudiantes de la carrera de Ingeniería Civil en Ciencia de Datos de la Universidad Metropolitana. Nuestra misión es representar y apoyar a nuestros compañeros, promoviendo la colaboración, el bienestar y el crecimiento académico y profesional dentro de nuestra comunidad.
     """)
 
-    st.header("Directiva 2024-2026")
+    st.header("Intregantes centro de alumnos 2024-2026")
     
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/andres.jpeg", "Andres Nicolas Vega Moraga", "Presidente")
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/bruno.jpeg", "Bruno Eduardo Sainz Silva", "Vicepresidente")
