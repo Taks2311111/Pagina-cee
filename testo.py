@@ -252,7 +252,7 @@ elif opcion == "Conocenos":
     Somos el Centro de Estudiantes de la carrera de Ingeniería Civil en Ciencia de Datos de la Universidad Metropolitana. Nuestra misión es representar y apoyar a nuestros compañeros, promoviendo la colaboración, el bienestar y el crecimiento académico y profesional dentro de nuestra comunidad.
     """)
 
-    st.header("Jefe de carrera")
+    st.title("Jefe de carrera")
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/Jorge.png", "Jorge Ramón Vergara Quezada", "Jefe de carrera")
 
     st.title("intregantes centro de alumnos 2024-2026")
