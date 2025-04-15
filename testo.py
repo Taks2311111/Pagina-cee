@@ -253,7 +253,7 @@ elif opcion == "Conocenos":
     """)
 
     st.header("Jefe de carrera")
-    show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/jorge.png", "Jorge Ramón Vergara Quezada", "Jefe de carrera")
+    show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/Jorge.png", "Jorge Ramón Vergara Quezada", "Jefe de carrera")
 
     st.title("intregantes centro de alumnos 2024-2026")
     show_member("https://raw.githubusercontent.com/Taks2311111/Pagina-cee/main/Imgs/andres.jpeg", "Andres Nicolas Vega Moraga", "Presidente")
