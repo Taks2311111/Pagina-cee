@@ -34,11 +34,11 @@ def show_member(image_url, nombre, cargo):
         text_color = "#000000"  # negro para tema claro
     else:
         text_color = "#FFFFFF"  # blanco para tema oscuro
-        
+
     st.markdown(f"""
         <div style="display: flex; align-items: center; margin-bottom: 20px;">
             <img src="data:image/png;base64,{base64_img}" style="width: 130px; height: 130px; border-radius: 50%; margin-right: 20px;">
-            <div style="color: white;">
+            <div style="color: {text_color};">
                 <h4 style="margin: 0;">{nombre}</h4>
                 <p style="margin: 0;">{cargo}</p>
             </div>
